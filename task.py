@@ -27,13 +27,13 @@ def post_tweet(title, url):
     login_field.clear()
 
     # enter username
-    login_field.send_keys("680714483")
+    login_field.send_keys("")
 
     password_field = driver.find_element_by_class_name("js-password-field")
     password_field.clear()
 
     #enter password
-    password_field.send_keys("tapioka123")
+    password_field.send_keys("")
 
     password_field.submit()
     time.sleep(6)
